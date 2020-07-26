@@ -13,4 +13,8 @@ bot.on('/help', (msg) => {
     return msg.reply.text('These messages triggers bot: [когда ночная, Когда ночная, Когда ночная?, когда ночная?]')
 });
 
+bot.on('/about', (msg) => {
+    return msg.reply.text('Hi, I am a bot! 🤖')
+});
+
 bot.start();
