@@ -6,6 +6,9 @@
   "scripts": {
     "test": "node app.js"
   },
+  "engines": {
+    "node": "12.16.2"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
